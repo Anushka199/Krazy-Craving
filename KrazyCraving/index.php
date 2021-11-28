@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krazy Craving</title>
 
-    <!-- JQuery Mobile import-->
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- JQuery mobile package imports-->
+    <link rel="stylesheet" href="resources\css\jquery.mobile-1.4.5.min.css"/>
+    <script src="resources\js\jquery.min.js"></script>
+    <script src="resources\js\jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
     <!-- Start of first page -->
