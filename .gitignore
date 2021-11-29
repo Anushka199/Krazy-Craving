@@ -1,0 +1,4 @@
+#Ignore jquery package changes repeatedly being pushed to git
+
+/main/resources/css
+/main/resources/js
