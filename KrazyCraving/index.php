@@ -12,30 +12,30 @@
 </head>
 <body>
     <!-- Start of first page -->
-    <div data-role="page" id="foo">
+    <div data-role="page" id="mainpage">
         <div data-role="header">
-            <h1>Foo</h1>
+            <h1>Main Page</h1>
         </div>
         <div role="main" class="ui-content">
             <p>I'm first in the source order so I'm shown as the page.</p>
-            <p>View internal page called <a href="#bar">bar</a></p>
+            <p>View internal page called <a href="#subpage">bar</a></p>
         </div>
-        <div data-role="footer">
-            <h4>Page Footer</h4>
+        <div data-role="footer" data-position="fixed">
+            <h4>Footer</h4>
         </div>
     </div>
 
     <!-- Start of second page -->
-    <div data-role="page" id="bar">
+    <div data-role="page" id="subpage">
         <div data-role="header">
-            <h1>Bar</h1>
+            <h1>Sub Page</h1>
         </div>
         <div role="main" class="ui-content">
             <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
-            <p><a href="#foo">Back to foo</a></p>
+            <p><a href="#mainpage">Back to foo</a></p>
         </div>
-        <div data-role="footer">
-            <h4>Page Footer</h4>
+        <div data-role="footer" data-position="fixed">
+            <h4>Footer</h4>
         </div>
     </div>
 </body>
